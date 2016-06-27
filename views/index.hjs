@@ -96,8 +96,20 @@
           <!-- <h1>{{ title }}</h1> -->
           <h1>NodeJs Express Frame-work </h1>
           <p>Hogan templating {{ title }}</p>
-          <a href="mailto:pyramidguest@gmail.com?subject=feedback">email us</a>
+          <ul class="list-inline banner-social-buttons">
 
+                    <li>
+                        <a href="https://github.com/pyramidg" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
+                    </li>
+
+                    <li>
+                        <p><a href="mailto:pyramidguest@gmail.com?subject=feedback" class="btn btn-default btn-lg" ><i class="fa fa-google fa-fw"></i>email </a></p>
+                    </li>
+
+                    <li>
+                        <a  class="btn btn-default btn-lg"><i class="fa fa-skype fa-fw"></i>skype </span></a>
+                    </li>
+           </ul>
 
 
 
