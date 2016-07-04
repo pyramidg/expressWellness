@@ -1,1 +1,0 @@
-$("#container").sliphover();

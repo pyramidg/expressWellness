@@ -1,7 +1,11 @@
 <!DOCTYPE html>
 <html>
   <head>
+
+
     <title>{{ title }}</title>
+    <link href='https://fonts.googleapis.com/css?family=Bangers' rel='stylesheet' type='text/css'>
+
     <link rel='stylesheet' href='/stylesheets/style.css' />
 
     <!-- Latest compiled and minified CSS -->
@@ -10,10 +14,8 @@
     <!-- Optional theme -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
     <!-- Custom JavaScript -->
-    <script scr="/javascript/build.js" ></script>
 
-    <script src="javascript/jquery.min.js"></script>
-    <script src="javascript/jquery.sliphover.min.js"></script>
+    <script type="text/javascript" scr="public/javascripts/build.js" > </script>
 
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
@@ -22,8 +24,25 @@
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular.min.js"></script>
     <!-- jquery compiled  -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+    <!-- jquery works!  -->
+    <script type="text/javascript" src="http://malsup.github.com/jquery.cycle.all.js"></script>
 
 
+<script>
+  $(document) .ready(function() {
+
+    $('.slideshow').cycle({ 
+    fx:    'zoom',
+    sync:  false,
+    delay: -2000
+});       // choose your transition type, ex: fade, scrollUp, shuffle, etc...
+
+
+
+// END ---------- OF-JQUERY-------------!
+  });
+ </script>
   </head>
   <body>
 
@@ -63,6 +82,18 @@
           <!-- /.container -->
       </nav>
 
+      <div class="slideshow">
+
+
+    <img src="/images/img02.jpg" width="500" height="280" >
+    <img src="/images/img2.jpg" width="500" height="280" >
+    <img src="/images/img02.jpg" width="500" height="280" >
+    <img src="/images/img2.jpg" width="500" height="280" >
+    <img src="/images/img2.jpg" width="500" height="280" >
+
+    </div>
+
+
       <!-- Page Content -->
       <div class="container">
 
@@ -97,6 +128,11 @@
           </div>
 
 
+          <div id="box">
+          CSS3 LESS
+
+          </div>
+
           <!-- <h1>{{ title }}</h1> -->
           <h1>NodeJs Express Frame-work </h1>
           <p>Hogan templating {{ title }}</p>
@@ -114,6 +150,7 @@
                         <a  class="btn btn-default btn-lg"><i class="fa fa-skype fa-fw"></i>skype </span></a>
                     </li>
            </ul>
+
 
 
 
