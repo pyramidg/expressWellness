@@ -15,7 +15,7 @@
 
   <!-- Custom JavaScript -->
 
-  <script type="text/javascript" scr="public/javascripts/build.js">
+  <script src="/javascripts/build.js">
   </script>
 
   <!-- Latest compiled and minified JavaScript -->
@@ -46,7 +46,7 @@
   </script>
 </head>
 
-<body>
+<body id="bodyId"class="bodyClass">
 
   <!-- Navigation -->
   <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
@@ -132,9 +132,14 @@
     </div>
 
 
-    <div id="box">
+    <div id="box" class="boxC">
       CSS3 LESS
 
+
+    </div>
+    <div class="dscro">
+
+      <img class="img-scro" text="Dream" src="/images/img2.jpg" alt="" />
 
     </div>
 
